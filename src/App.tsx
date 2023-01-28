@@ -15,7 +15,7 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/:name" element={<SingleCountry />} />
+          <Route path="/country/:name" element={<SingleCountry />} />
           <Route path="*" element={<Error404 />} />
         </Routes>
       </div>

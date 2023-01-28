@@ -1,8 +1,12 @@
 import { configureStore, Store } from "@reduxjs/toolkit";
+import fetchingReducer from "./slices/fetchingSlice";
 import themeReducer from "./slices/themeSlice";
+import countriesReducer from "./slices/countriesSlice";
 export const store = configureStore({
   reducer: {
     theme: themeReducer,
+    fetch: fetchingReducer,
+    countriesSlice: countriesReducer,
   },
 });
 

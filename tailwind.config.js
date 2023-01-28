@@ -11,6 +11,9 @@ module.exports = {
         lightBg: "hsl(0, 0%, 98%)",
         lightText: "hsl(200, 15%, 8%)",
       },
+      sreens: {
+        xl: "1200px",
+      },
     },
   },
   plugins: [],
